@@ -60,7 +60,32 @@
 
 ## ▶️ Run Project
 
-### 1. Train model
+### 1. Install libraries
+
+```bash
+pip install pandas numpy scikit-learn streamlit joblib openpyxl
+```
+
+---
+
+### 2. Train model
 
 ```bash
 python train_model.py
+```
+
+---
+
+### 3. Run Streamlit app
+
+```bash
+streamlit run app.py
+```
+
+---
+
+### 4. Open browser
+
+```text
+http://localhost:8501
+```
