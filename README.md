@@ -1,1 +1,0 @@
-# gpa-prediction-app
