@@ -256,9 +256,13 @@ if st.button(
 
     if prediction >= 3.6:
 
+        st.balloons()
+
         st.success(
             "🔥 Học lực xuất sắc"
         )
+        
+        st.info("🎉 chúc mừng bạn đang có kết quả học tập tốt!")
 
     elif prediction >= 3.2:
 
